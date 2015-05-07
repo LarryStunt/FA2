@@ -17,7 +17,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#09C; background-image:url(img/logo.png); background-size:100% 100%; background-repeat:no-repeat;">
 
     
 <div data-role="page" id="pageone" data-transition="flip" style="background-image:url(img/background.jpg); background-size:100% 100%; opacity:1;">
@@ -25,10 +25,10 @@
     <div data-display="overlay" data-role="panel" id="myPanel" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/consulting4.jpg); background-size:100% 100%; opacity:0.9;"> 
    
     	<ul data-role="listview" style="opacity:0.95;" class="ui-content">
-        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active">Welcome</a></li>
+        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active" data-transition="flip">Welcome</a></li>
         <li><a href="" data-icon="info">Biography</a></li>
         <li><a href="" data-icon="check">Tributes <span class="ui-li-has-count">25</span></a></li>
-        <li><a href="#Program" data-icon="gear">Funeral Program</a></li>
+        <li><a href="#Program" data-icon="gear" data-transition="flip">Funeral Program</a></li>
         <li><a href="" class="ui-icon-back">Location</a></li>
         <li><a href="" data-icon="alert">About Developer</a></li>
         </ul>
@@ -53,7 +53,7 @@
                 </li>
             	<li><a href="" data-icon="home" class="ui-btn-active">Home</a>
                 </li>
-                <li><a href="#Program" data-icon="star">Program</a>
+                <li><a href="#Program" data-icon="star" data-transition="flow">Program</a>
                 </li>
                 <li><a href="" data-icon="grid">Gallery</a>
                 </li>
@@ -64,15 +64,15 @@
 
 <!--Programs Page -->
 
-<div data-role="page" id="Program" data-transition="flip" style="background-color:#0CF; background-image:url(img/app-blurred-bg-14.jpg); background-size:100% 100%; background-repeat:no-repeat;">
+<div data-role="page" id="Program" style="background-color:#0CF; background-image:url(img/app-blurred-bg-14.jpg); background-size:100% 100%; background-repeat:no-repeat;">
 	
     <div data-display="overlay" data-role="panel" id="myPanel2" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/consulting4.jpg); background-size:100% 100%; opacity:0.9;"> 
    
     	<ul data-role="listview" style="opacity:0.95;" class="ui-content">
-        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active">Welcome</a></li>
+        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active" data-transition="flip">Welcome</a></li>
         <li><a href="" data-icon="info">Biography</a></li>
         <li><a href="" data-icon="check">Tributes <span class="ui-li-has-count">25</span></a></li>
-        <li><a href="#program" data-icon="gear">Funeral Program</a></li>
+        <li><a href="#program" data-icon="gear" data-transition="flip">Funeral Program</a></li>
         <li><a href="" class="ui-icon-back">Location</a></li>
         <li><a href="" data-icon="alert">About Developer</a></li>
         </ul>
@@ -102,7 +102,7 @@
         	<ul>
             	<li><a href="#myPanel2" class="ui-btn" data-icon="arrow-r">Menu</a>
                 </li>
-            	<li><a href="#pageone" data-icon="home">Home</a>
+            	<li><a href="#pageone" data-icon="home" data-transition="flow" data-direction="reverse">Home</a>
                 </li>
                 <li><a href="#Program" data-icon="star" class="ui-btn-active">Program</a>
                 </li>
