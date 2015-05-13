@@ -17,23 +17,25 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:#09C; background-image:url(img/logo.png); background-size:100% 100%; background-repeat:no-repeat;">
+<body style="background-color:#09C; background-image:url(img/app-bg1.png); background-size:100% 100%; background-repeat:no-repeat;">
 
     
 <div data-role="page" id="pageone" data-transition="flip" style="background-image:url(img/background.jpg); background-size:100% 100%; opacity:1;">
 	
-    <div data-display="overlay" data-role="panel" id="myPanel" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/consulting4.jpg); background-size:100% 100%; opacity:0.9;"> 
-   
-    	<ul data-role="listview" style="opacity:0.95;" class="ui-content">
-        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active" data-transition="flip">Welcome</a></li>
-        <li><a href="" data-icon="info">Biography</a></li>
-        <li><a href="" data-icon="check">Tributes <span class="ui-li-has-count">25</span></a></li>
-        <li><a href="#Program" data-icon="gear" data-transition="flip">Funeral Program</a></li>
-        <li><a href="" class="ui-icon-back">Location</a></li>
-        <li><a href="" data-icon="alert">About Developer</a></li>
+    <div data-display="overlay" data-role="panel" id="myPanel" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/app-bg1.png); background-size:100% 100%; opacity:0.9;"> 
+   <div data-role="header" align="left" data-theme="b" class="ui-header ui-header-fixed" style="opacity:0.8; padding-left:10px">
+   		<p><img src="img/dp.jpg" style="height:30px; width:auto; border-radius:50%; box-shadow:0px 0px 5px 2px #FFFFFF;"><span class="caption" style="margin-left:10px;">MENU</span></p>
+   </div>
+    	<ul data-role="listview" style="opacity:1; margin-top:14%;" class="ui-content">
+        <li data-icon="home" data-iconpos="left"><a href="#pageone" class="ui-btn ui-btn-active caption" data-transition="flip">Home</a></li>
+        <li data-icon="info" data-iconpos="left"><a href="" data-transition="flip">Biography</a></li>
+        <li data-icon="heart" data-iconpos="left"><a href="#tributes" data-transition="flip">Tributes</a></li>
+        <li data-icon="calendar" data-iconpos="left"><a href="#Program" data-transition="flip">Funeral Program</a></li>
+        <li data-icon="location" data-iconpos="left"><a href="" data-transition="flip">Location</a></li>
+        <li data-icon="user" data-iconpos="left"><a href="" data-transition="flip">About Developer</a></li>
         </ul>
         <div data-role="footer" class="ui-footer-fixed" align="right">
-    	<a href="#pageone" data-role="footer" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-back ui-btn-icon-left ui-footer-fullscreen">Close</a>
+    	<a href="#pageone" data-role="footer" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left ui-footer-fullscreen">Close</a>
         </div>
    
   	</div> 
@@ -43,17 +45,19 @@
      <div data-role="main" class="ui-content">
          	<h1 align="center"> Welcome To The Funeral App</h1>
             <h3 align="center">A Celebratioin of Life</h3>
+            <p align="center"><img src="img/dp.jpg" style="width:70%; height:auto; border-radius:50%; border-style:solid; border-color:#CCC; border:1; box-shadow:0px 0px 20px 3px #666666;"></p>
     </div>
+    
      
      <br>
-	<div data-role="footer" style="opacity:0.8;" data-theme="b" class="ui-footer-fixed">
+	<div data-role="footer" style="opacity:0.8; text-shadow:" data-theme="b" class="ui-footer-fixed">
     	 <div data-role="navbar" data-iconpos="top">
         	<ul>
             	<li><a href="#myPanel" class="ui-btn" data-icon="arrow-r">Menu</a>
                 </li>
             	<li><a href="" data-icon="home" class="ui-btn-active">Home</a>
                 </li>
-                <li><a href="#Program" data-icon="star" data-transition="slide" data-direction="left">Program</a>
+                <li><a href="#Program" data-icon="calendar" data-transition="slide" data-direction="left">Program</a>
                 </li>
                 <li><a href="" data-icon="grid">Gallery</a>
                 </li>
@@ -66,18 +70,21 @@
 
 <div data-role="page" id="Program" style="background-color:#0CF; background-image:url(img/app-blurred-bg-14.jpg); background-size:100% 100%; background-repeat:no-repeat;">
 	
-    <div data-display="overlay" data-role="panel" id="myPanel2" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/consulting4.jpg); background-size:100% 100%; opacity:0.9;"> 
+    <div data-display="overlay" data-role="panel" id="myPanel2" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/app-bg1.png); background-size:100% 100%; opacity:0.9;"> 
    
-    	<ul data-role="listview" style="opacity:0.95;" class="ui-content">
-        <li><a href="#pageone" class="ui-btn ui-btn-inline ui-btn-active" data-transition="flip">Welcome</a></li>
-        <li><a href="" data-icon="info">Biography</a></li>
-        <li><a href="" data-icon="check">Tributes <span class="ui-li-has-count">25</span></a></li>
-        <li><a href="#program" data-icon="gear" data-transition="flip">Funeral Program</a></li>
-        <li><a href="" class="ui-icon-back">Location</a></li>
-        <li><a href="" data-icon="alert">About Developer</a></li>
+    	<div data-role="header" align="left" data-theme="b" class="ui-header ui-header-fixed" style="opacity:0.8; padding-left:10px">
+   		<p><img src="img/dp.jpg" style="height:30px; width:auto; border-radius:50%; box-shadow:0px 0px 5px 2px #FFFFFF;"><span class="caption" style="margin-left:10px;">MENU</span></p>
+   </div>
+    	<ul data-role="listview" style="opacity:1; margin-top:14%;" class="ui-content">
+        <li data-icon="home" data-iconpos="left"><a href="#pageone" data-transition="flip">Home</a></li>
+        <li data-icon="info" data-iconpos="left"><a href="" data-transition="flip">Biography</a></li>
+        <li data-icon="heart" data-iconpos="left"><a href="#tributes" data-transition="flip">Tributes</a></li>
+        <li data-icon="calendar" data-iconpos="left"><a href="#Program" class="ui-btn ui-btn-active caption" data-transition="flip">Funeral Program</a></li>
+        <li data-icon="location" data-iconpos="left"><a href="" data-transition="flip">Location</a></li>
+        <li data-icon="user" data-iconpos="left"><a href="" data-transition="flip">About Developer</a></li>
         </ul>
         <div data-role="footer" class="ui-footer-fixed" align="right">
-    	<a href="#Program" data-role="footer" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-back ui-btn-icon-left ui-footer-fullscreen">Close</a>
+    	<a href="#Program" data-role="footer" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left ui-footer-fullscreen">Close</a>
         </div>
    
   	</div>
@@ -104,14 +111,66 @@
                 </li>
             	<li><a href="#pageone" data-icon="home" data-transition="slide" data-direction="reverse">Home</a>
                 </li>
-                <li><a href="#Program" data-icon="star" class="ui-btn-active">Program</a>
+                <li><a href="#Program" data-icon="calendar" class="ui-btn-active">Program</a>
                 </li>
                 <li><a href="" data-icon="grid">Gallery</a>
                 </li>
             </ul>  
          </div>       	
      </div>
+ </div><!--End of Program page-->
+     
+	<!--Tributes Page-->
+    
+    <div data-role="page" id="tributes" style="background-color:#0CF; background-image:url(img/dev-bg.jpg); background-size:100% 100%; background-repeat:no-repeat;">
+	
+    <div data-display="overlay" data-role="panel" id="myPanel3" data-theme="b" style="opacity:0.7; background:#366; background-image:url(img/app-bg1.png); background-size:100% 100%; opacity:0.9;"> 
+   
+    	<div data-role="header" align="left" data-theme="b" class="ui-header ui-header-fixed" style="opacity:0.8; padding-left:10px">
+   		<p><img src="img/dp.jpg" style="height:30px; width:auto; border-radius:50%; box-shadow:0px 0px 5px 2px #FFFFFF;"><span class="caption" style="margin-left:10px;">MENU</span></p>
+   </div>
+    	<ul data-role="listview" style="opacity:1; margin-top:14%;" class="ui-content">
+        <li data-icon="home" data-iconpos="left"><a href="#pageone" data-transition="flip">Home</a></li>
+        <li data-icon="info" data-iconpos="left"><a href="" data-transition="flip">Biography</a></li>
+        <li data-icon="heart" data-iconpos="left"><a href="#tributes" class="ui-btn ui-btn-active caption" data-transition="flip">Tributes</a></li>
+        <li data-icon="calendar" data-iconpos="left"><a href="#Program" data-transition="flip">Funeral Program</a></li>
+        <li data-icon="location" data-iconpos="left"><a href="" data-transition="flip">Location</a></li>
+        <li data-icon="user" data-iconpos="left"><a href="" data-transition="flip">About Developer</a></li>
+        </ul>
+        <div data-role="footer" class="ui-footer-fixed" align="right">
+    	<a href="#tributes" data-role="footer" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left ui-footer-fullscreen">Close</a>
+        </div>
+   
+  	</div>
+	<div data-role="header" data-theme="a" style="opacity:0.7; background-image:url(img/bg-solid-hd.jpg); background-repeat:no-repeat; background-size:100% 100%;" data-inline="false">
+    	<div class="ui-grid-solo">
+        	<div class="ui-block-a" align="center" style="width:100%;">
+           	<p style="text-align:center; margin-left:0; margin-top:0; margin-bottom:0; font-size:200%; font-weight:900; font-family:'Century Gothic', 'Century Schoolbook', 'Adobe Garamond Pro'; text-transform:capitalize; text-shadow:2px 2px 1px #666600; color:#FFF;">Tributes</p>
+   			</div>
+    		
+        </div>
+    </div>
+    
+	<div data-fullscreen="true" class="ui-content">
+    	
+        <h4 style="color:#CCC; text-shadow:2px 2px 1px #666600;">Table of content</h4>
+    </div>
+    
+    <div data-role="footer" style="opacity:0.8;" data-theme="b" class="ui-footer-fixed">
+    	 <div data-role="navbar" data-iconpos="top">
+        	<ul>
+            	<li><a href="#myPanel3" class="ui-btn" data-icon="arrow-r">Menu</a>
+                </li>
+            	<li><a href="#pageone" data-icon="home" data-transition="pop">Home</a>
+                </li>
+                <li><a href="#Program" data-icon="calendar" data-transition="pop">Program</a>
+                </li>
+                <li><a href="" data-icon="grid">Gallery</a>
+                </li>
+            </ul>  
+         </div>       	
+     </div>
+  </div>  <!--End of Tributes page-->
 
-</div>
 </body>
 </html>
